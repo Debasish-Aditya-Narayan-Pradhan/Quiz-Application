@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!---Landing page -->
+    <section id="container">
+        <div class="wlc-div">
+        <h1 class="wlc-msg">Welcome to Master-Quiz</h1>
+        <a class="st-btn"  href="#quiz-package">Start now</a>
+        </div>
+    </section>
+
+    <header id="quiz-header">
+    <h1 class="quiz-h1">Master Quiz</h1>
+    </header>
+
+    <nav id="main-nav">
+        <a href="#container">Home</a>
+        <a href="#quiz-package">Quiz</a>
+        <a href="#top-performer">Top Performer</a>
+        <a href="">Notes</a>
+    </nav>
+    <section id="quiz-package">
+        <h1 class="quiz-heading">Coading Quiz</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi modi facilis quisquam reprehenderit, odit natus dolores ea magni minima voluptatem?</p>
+        <div id="java-quiz">
+            <div id="image-card">
+                <p class="card-heading" style="font-weight: bold;">Java</p>
+                <img src="quiz-img/java.png">
+                
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus quae iste, sunt quam maiores tempore, officia, eaque est et nisi neque eveniet fugiat eos iusto adipisci laborum odit modi.</p>
+                <p class="card-heading" style="font-weight: bold;">$500</p>
+                <button class="btn" onclick="startQuiz('java')">Take Quiz</button>
+            </div>
+
+            <div id="image-card">
+                <p class="card-heading" style="font-weight: bold;">Python</p>
+                <img src="quiz-img/python.jpg">
+                
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus quae iste, sunt quam maiores tempore, officia, eaque est et nisi neque eveniet fugiat eos iusto adipisci laborum odit modi.</p>
+                <p class="card-heading" style="font-weight: bold;">$300</p>
+                <button class="btn" onclick="startQuiz('python')">Take Quiz</button>
+            </div>
+
+            <div id="image-card">
+                <p class="card-heading" style="font-weight: bold;">.Net</p>
+                <img src="quiz-img/net.png">
+                
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus quae iste, sunt quam maiores tempore, officia, eaque est et nisi neque eveniet fugiat eos iusto adipisci laborum odit modi.</p>
+                <p class="card-heading" style="font-weight: bold;">$400</p>
+                <button class="btn" onclick="startQuiz('net')">Take Quiz</button>
+            </div>
+            <div id="image-card">
+                <p class="card-heading" style="font-weight: bold;">React</p>
+                <img src="quiz-img/react.png">
+                
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellendus quae iste, sunt quam maiores tempore, officia, eaque est et nisi neque eveniet fugiat eos iusto adipisci laborum odit modi.</p>
+                <p class="card-heading" style="font-weight: bold;">$200</p>
+                <button class="btn" onclick="startQuiz('react')">Take Quiz</button>
+            </div>
+        </div>
+    </section>
+
+    <h1 id="top-performer">Top Performer</h1>
+    <div id="img-performer">
+        <img class="img-top-performer" src="quiz-img/m1.jpeg">
+        <img class="img-top-performer" src="quiz-img/m2.jpg">
+        <img class="img-top-performer" src="quiz-img/m3.jpg">
+        <img class="img-top-performer" src="quiz-img/m4.jpg">
+        <img class="img-top-performer" src="quiz-img/m5.jpg">
+        <img class="img-top-performer" src="quiz-img/m6.jpg">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
